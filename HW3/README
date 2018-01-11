@@ -1,0 +1,61 @@
+/*************************************************************************
+ > EE569 Homework Assignment #3
+ > Date:     February 24, 2017
+ > Author:   Chenyu Peng
+ > ID:       3498-8893-91
+ > email:    chenyupe@usc.edu
+
+ > Compiled on OS X with gcc
+ > Define compiler and linker
+ ************************************************************************/
+
+Problem1_a:
+File name: texture_classification.cpp
+Input: g++ -o texture_classification texture_classification.cpp
+	   ./texture_classification
+
+Problem1_b:
+File name: texture_segmentation.cpp
+Input: g++ -o texture_segmentation texture_segmentation.cpp
+	   ./texture_segmentation
+
+Problem1_c:
+File name: improvement.cpp
+Input: g++ -o improvement improvement.cpp
+	   ./improvement
+
+
+/*************************************************************************
+ > EE569 Homework Assignment #3
+ > Date:     February 24, 2017
+ > Author:   Chenyu Peng
+ > ID:       3498-8893-91
+ > email:    chenyupe@usc.edu
+
+ > Compiled on OS X with Xcode
+ > Define compiler and linker
+ ************************************************************************/
+
+Problem2_a:
+File name: canny_edge.cpp
+
+Problem3_a:
+File name: salient_points.cpp
+
+Problem3_b:
+File name: image_matching.cpp
+
+
+/*************************************************************************
+ > EE569 Homework Assignment #3
+ > Date:     February 24, 2017
+ > Author:   Chenyu Peng
+ > ID:       3498-8893-91
+ > email:    chenyupe@usc.edu
+
+ > Compiled on Windows with Matlab
+ > Define compiler and linker
+ ************************************************************************/
+
+Problem2_b and Problem2_c:
+File name: edgesDemo.m
