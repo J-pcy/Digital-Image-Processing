@@ -1,0 +1,19 @@
+# EE569 Homework Assignment #4
+# Date:     April 20, 2017
+# Author:   Chenyu Peng
+# ID:       3498-8893-91
+# email:    chenyupe@usc.edu
+
+# Compiled on OS X with python3
+# ==============================================================================
+
+
+Problem1:
+File name: baseline CNN & different parameters
+Input: python3 cifar10_train.py
+	   python3 cifar10_eval.py
+
+
+Problem2:
+File name: improved CNN & state-of-art
+Input: python3 cifar10.py
