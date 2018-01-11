@@ -1,0 +1,77 @@
+/*************************************************************************
+ > EE569 Homework Assignment #1
+ > Date:     February 4, 2017
+ > Author:   Chenyu Peng
+ > ID:       3498-8893-91
+ > email:    chenyupe@usc.edu
+
+ > Compiled on OS X with gcc
+ > Define compiler and linker
+ ************************************************************************/
+
+Problem1_a1:
+File name: dog_mirroring.cpp
+Input: ./dog_mirroring dog.raw dog_mirroring.raw 300 300 3
+
+Problem1_a2:
+File name: dog_resizing.cpp
+Input: ./dog_resizing dog_mirroring.raw 300 300
+
+Problem1_a3:
+File name: image_compositing.cpp
+Input: ./image_compositing dog_mirroring.raw 300 300 beach.raw 1914 808 1100 400
+
+Problem1_b1:
+File name: cmy_colorspace.cpp
+Input: ./cmy_colorspace parrot.raw 512 384
+       ./cmy_colorspace building.raw 789 600
+
+Problem1_b2:
+File name: hsl_colorspace.cpp
+Input: ./hsl_colorspace cat.raw 600 398
+       ./hsl_colorspace dolphin.raw 640 480
+
+Problem1_b3:
+File name: sepia_filter.cpp
+Input: ./sepia_filter beach.raw 1914 808
+
+Problem2_a1:
+File1 name: his_enhanceA.cpp
+Input: ./his_enhanceA tulip_dark.raw 400 366
+       ./his_enhanceA tulip_bright.raw 400 366
+       ./his_enhanceA tulip_mix.raw 400 366
+File2 name: his_enhanceB.cpp
+Input: ./his_enhanceB tulip_dark.raw 400 366
+       ./his_enhanceB tulip_bright.raw 400 366
+       ./his_enhanceB tulip_mix.raw 400 366
+
+Problem2_a2:
+File name: his_enhanceA_mix.cpp
+Input: ./his_enhanceA_mix tulip_mix.raw 400 366
+
+Problem2_b:
+File1 name: histo_equal_colorA.cpp
+Input: ./histo_equal_colorA bedroom.raw 940 400
+File2 name: histo_equal_colorB.cpp
+Input: ./histo_equal_colorB bedroom.raw 940 400
+
+Problem2_c:
+File name: histo_trans.cpp
+Input: ./histo_trans forest_1.raw 940 600
+       ./histo_trans forest_2.raw 550 413
+
+Problem3_a:
+File1 name: mix_noise.cpp
+Input: ./mix_noise pepper.raw pepper_noisy.raw 512 512
+File2 name: mix_noise_mean.cpp
+Input: ./mix_noise_mean pepper.raw pepper_noisy.raw 512 512
+File3 name: mix_noise_gaussian.cpp
+Input: ./mix_noise_gaussian pepper.raw pepper_noisy.raw 512 512
+File4 name: mix_noise_median.cpp
+Input: ./mix_noise_median pepper.raw pepper_noisy.raw 512 512
+
+Problem3_b:
+File name: NLM_filter.cpp
+Input: ./NLM_filter pepper_noisy.raw pepper.raw 512 512
+       ./NLM_filter sailboat_noisy.raw sailboat.raw 512 512
+
