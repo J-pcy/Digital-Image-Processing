@@ -1,0 +1,56 @@
+/*************************************************************************
+ > EE569 Homework Assignment #2
+ > Date:     February 24, 2017
+ > Author:   Chenyu Peng
+ > ID:       3498-8893-91
+ > email:    chenyupe@usc.edu
+
+ > Compiled on OS X with gcc
+ > Define compiler and linker
+ ************************************************************************/
+
+Problem1_a:
+File name: geometrical_warping.cpp
+Input: g++ -o geometrical_warping geometrical_warping.cpp
+	   ./geometrical_warping cup1.raw 500 500
+	   ./geometrical_warping cup2.raw 500 500
+
+Problem1_b:
+File name: puzzle_matching.cpp
+Input: g++ -o puzzle_matching puzzle_matching.cpp
+	   ./puzzle_matching
+
+Problem1_c:
+File name: homo_trans.cpp
+Input: g++ -o homo_trans homo_trans.cpp
+	   ./homo_trans
+
+Problem2_a:
+File name: dithering_matrix.cpp
+Input: g++ -o dithering_matrix dithering_matrix.cpp
+	   ./dithering_matrix man.raw 512 512
+
+Problem2_b:
+File name: error_diffusion.cpp
+Input: g++ -o error_diffusion error_diffusion.cpp
+	   ./error_diffusion man.raw 512 512
+
+Problem3_a:
+File name: shrinking.cpp
+Input: g++ -o shrinking shrinking.cpp
+	   ./shrinking squares.raw 480 480
+
+Problem3_b:
+File name: thinning.cpp
+Input: g++ -o thinning thinning.cpp
+	   ./thinning letterE.raw 480 480
+
+Problem3_c:
+File name: skeletonizing.cpp
+Input: g++ -o skeletonizing skeletonizing.cpp
+	   ./skeletonizing letterE.raw 480 480
+
+Problem3_d:
+File name: counting_game.cpp
+Input: g++ -o counting_game counting_game.cpp
+	   ./counting_game board.raw 480 480
